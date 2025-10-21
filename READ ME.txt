@@ -30,7 +30,8 @@ Connections:
 
 -the LCD screen is a HD44780 model , with 16 parallel pins
 	rs = 12, en = 13, d4 = 10, d5 = 9, d6 = 8, d7 = 7
-	the potentiometer ins= connected to V0 pin
+	the potentiometer is connected to V0 pin
 
 
 Feel free to change the pinout as you like, but don't forget to change the software accordingly:)
+
