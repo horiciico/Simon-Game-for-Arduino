@@ -1,0 +1,36 @@
+Description:
+	This project is inspired from a Simon color game, in which the player must follow
+	a random sequence of lighting LEDs, and then reproducing it by pressing the corresponding 
+	buttons in order.
+
+Hardware:
+	- 5xLEDs(blue, red, green, yellow, orange)
+	-5 current-limiting resistor (220-330 ohm)
+	- Arduino Uno board
+	- LCD screen 
+	- breadboard(preferably 2)
+	- 5 push-buttons 
+	- jumper wires
+
+Connections:
+- all the buttons are wired in the analog pins as follows:
+	-RED_button on pin A0
+	-BLUE_button on pin A1
+	-GREEN_button on pin A2
+	-ORANGE_button on pin A3
+	-YELLOW_button on pin A4
+
+-the LEDs are connected as follows:
+	-RED_led on pin 2
+	-BLUE_led on pin 3
+	-GREEN_led on pin 4
+	-ORANGE_led on pin 5
+	-YELLOW_led on pin 6
+	-Don't forget to add the current-limiting resistors
+
+-the LCD screen is a HD44780 model , with 16 parallel pins
+	rs = 12, en = 13, d4 = 10, d5 = 9, d6 = 8, d7 = 7
+	the potentiometer ins= connected to V0 pin
+
+
+Feel free to change the pinout as you like, but don't forget to change the software accordingly:)
