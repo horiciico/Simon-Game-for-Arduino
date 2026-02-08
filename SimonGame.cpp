@@ -61,4 +61,5 @@ bool execute_state(int FSM, int nivel, int level)
     while(digitalRead(buton_rosu)==HIGH){}
     return true;
   }
+  return false;
 }
